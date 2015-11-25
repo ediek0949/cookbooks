@@ -1,0 +1,7 @@
+DEPENDENCIES
+  animapp
+    path: .
+    metadata: true
+
+GRAPH
+  animapp (0.1.0)
