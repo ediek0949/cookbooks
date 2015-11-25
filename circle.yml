@@ -13,4 +13,3 @@ test:
     - sudo chef gem specific_install kitchen-docker -l http://github.com/peterabbott/kitchen-docker.git -b v1.6.4
     - sudo chef gem uninstall chefspec
     - chef gem install chefspec:4.0.1
-    - chef exec bundle exec kitchen verify
