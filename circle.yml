@@ -23,4 +23,4 @@ test:
     - chef exec berks install
     - chef exec rspec -P spec/**/*_spec.rb --tty --color
     - chef exec foodcritic . -X spec -f any -t ~FC003
-    - chef exec kitchen test
+    - chef exec kitchen verify
